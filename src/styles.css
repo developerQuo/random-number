@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
+.max-number {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#result .outcome {
+  font-weight: 700;
+}

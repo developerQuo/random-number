@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Number Game</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Random Number Game</h1>
+      <form id="random-game-form">
+        <div class="max-number">
+          <label for="maxNumber">
+            Generate a number between 0 and
+          </label>
+          <input type="number" min="0" name="maxNumber" required />
+        </div>
+        <div>
+          <label for="userNumber">
+            Guess the number:
+          </label>
+          <input type="number" name="userNumber" min="0" required />
+          <button>Play!</button>
+        </div>
+      </form>
+      <div id="result"></div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
